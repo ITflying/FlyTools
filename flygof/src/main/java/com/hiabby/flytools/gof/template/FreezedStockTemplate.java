@@ -8,7 +8,7 @@ import java.util.List;
 import java.util.Objects;
 
 /**
- * @desc
+ * @desc 模版方法模式 - 定义一个流程， 然后将具体的分支实现下放到子类当中完成，实现多流程处理
  * @date 2018/09/20
  **/
 public abstract class FreezedStockTemplate {
