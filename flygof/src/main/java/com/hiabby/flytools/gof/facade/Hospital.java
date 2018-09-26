@@ -1,4 +1,4 @@
-package com.hiabby.flytools.gof.Facade;
+package com.hiabby.flytools.gof.facade;
 
 /**
  * @desc 外观模式

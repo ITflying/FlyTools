@@ -1,6 +1,6 @@
 package com.hiabby.flytools.gof;
 
-import com.hiabby.flytools.gof.Facade.SeeADoctorMaker;
+import com.hiabby.flytools.gof.facade.SeeADoctorMaker;
 import org.junit.Test;
 
 /**
@@ -9,7 +9,7 @@ import org.junit.Test;
  **/
 public class FacadeTest {
     @Test
-    public void test_facade(){
+    public void test_facade() {
         SeeADoctorMaker seeADoctorMaker = new SeeADoctorMaker();
         seeADoctorMaker.watchingSomethingError();
     }

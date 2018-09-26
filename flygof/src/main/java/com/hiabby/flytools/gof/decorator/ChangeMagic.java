@@ -7,14 +7,14 @@ package com.hiabby.flytools.gof.decorator;
 public class ChangeMagic extends MagicDecorator {
     private String magicName;
 
-    public ChangeMagic(Immortal immortalMan, String magicName){
+    public ChangeMagic(Immortal immortalMan, String magicName) {
         super(immortalMan);
         this.magicName = magicName;
     }
 
     @Override
     public int level() {
-        return  super.level() + 1;
+        return super.level() + 1;
     }
 
     @Override

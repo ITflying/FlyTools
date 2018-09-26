@@ -6,7 +6,7 @@ package com.hiabby.flytools.gof.builder;
  **/
 public class WomanRoleBuilder implements GameRoleBuilder {
     GameRole woman = new GameRole();
-    
+
     @Override
     public void getHead() {
         System.out.println("获取女性头部数据");

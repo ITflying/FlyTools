@@ -6,9 +6,10 @@ package com.hiabby.flytools.gof.prototype;
  **/
 public class GameWomanUser extends GameUserPrototype {
 
-    public GameWomanUser(){
+    public GameWomanUser() {
         model = "woman";
     }
+
     @Override
     public void createUser() {
         System.out.println("创建女性角色");

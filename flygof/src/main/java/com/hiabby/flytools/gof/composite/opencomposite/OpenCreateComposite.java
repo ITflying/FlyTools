@@ -8,19 +8,19 @@ import java.util.List;
  * @desc
  * @date 2018/09/25
  **/
-public class OpenCreateComposite extends OpenComponent{
+public class OpenCreateComposite extends OpenComponent {
     private List<OpenComponent> openComponentList = new ArrayList<>();
 
-    public OpenCreateComposite(String name){
+    public OpenCreateComposite(String name) {
         this.name = name;
     }
 
     @Override
-    public void print(){
+    public void print() {
         System.out.println(name);
 
         Iterator<OpenComponent> iterator = openComponentList.iterator();
-        while (iterator.hasNext()){
+        while (iterator.hasNext()) {
             OpenComponent temp = iterator.next();
             System.out.print("\t");
             temp.print();
@@ -28,17 +28,17 @@ public class OpenCreateComposite extends OpenComponent{
     }
 
     @Override
-    public void add(OpenComponent openComponent){
+    public void add(OpenComponent openComponent) {
         openComponentList.add(openComponent);
     }
 
     @Override
-    public void remove(OpenComponent openComponent){
+    public void remove(OpenComponent openComponent) {
         openComponentList.remove(openComponent);
     }
 
     @Override
-    public OpenComponent getChild(){
+    public OpenComponent getChild() {
         throw new UnsupportedOperationException();
     }
 }

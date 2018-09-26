@@ -7,7 +7,7 @@ package com.hiabby.flytools.gof.decorator;
 public abstract class MagicDecorator implements Immortal {
     private Immortal immortalMan;
 
-    public MagicDecorator(Immortal immortalMan){
+    public MagicDecorator(Immortal immortalMan) {
         this.immortalMan = immortalMan;
     }
 
@@ -17,7 +17,7 @@ public abstract class MagicDecorator implements Immortal {
     }
 
     @Override
-    public void addMagic(String magicName){
+    public void addMagic(String magicName) {
         immortalMan.addMagic(magicName);
     }
 

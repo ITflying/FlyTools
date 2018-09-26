@@ -1,7 +1,7 @@
 package com.hiabby.flytools.gof.adapter.classadapter;
 
-import com.hiabby.flytools.gof.adapter.entity.TargetChinaPower;
 import com.hiabby.flytools.gof.adapter.entity.AmericanPowerResource;
+import com.hiabby.flytools.gof.adapter.entity.TargetChinaPower;
 
 /**
  * @desc

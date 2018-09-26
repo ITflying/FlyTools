@@ -4,9 +4,9 @@ package com.hiabby.flytools.gof.composite.safecomposite;
  * @desc
  * @date 2018/09/26
  **/
-public class SafeCompositeLeaf extends SafeComponent{
+public class SafeCompositeLeaf extends SafeComponent {
 
-    public SafeCompositeLeaf(String name){
+    public SafeCompositeLeaf(String name) {
         super(name);
     }
 

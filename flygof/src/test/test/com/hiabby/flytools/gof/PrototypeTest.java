@@ -23,7 +23,7 @@ public class PrototypeTest {
         for (int i = 0; i < 10; i++) {
             GameWomanUser clonecp = (GameWomanUser) gameWomanUser.clone();
             clonecp.createUser();
-            if (clonecp == gameWomanUser){
+            if (clonecp == gameWomanUser) {
                 System.out.println("浅拷贝");
             }
         }

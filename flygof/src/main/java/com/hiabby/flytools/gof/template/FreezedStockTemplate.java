@@ -20,12 +20,13 @@ public abstract class FreezedStockTemplate {
 
     /**
      * 冻结库存
+     *
      * @param order
      */
-    public final void freeStock(String order){
+    public final void freeStock(String order) {
         // 1、校验参数
         boolean referenceType = this.checkFreezeStock(order);
-        if(Objects.nonNull(referenceType)){
+        if (Objects.nonNull(referenceType)) {
             // 2、加锁
             this.lock();
 
@@ -40,16 +41,16 @@ public abstract class FreezedStockTemplate {
         }
     }
 
-    boolean checkFreezeStock(String order){
+    boolean checkFreezeStock(String order) {
         System.out.println("校验冻结库存参数是否符合要求");
         return true;
     }
 
-    void lock(){
+    void lock() {
         System.out.println("加锁");
     }
 
-    void getStocks(String order){
+    void getStocks(String order) {
         System.out.println("获取库存");
     }
 

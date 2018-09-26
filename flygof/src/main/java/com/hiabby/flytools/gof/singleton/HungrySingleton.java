@@ -6,8 +6,13 @@ package com.hiabby.flytools.gof.singleton;
  **/
 public class HungrySingleton {
     private static HungrySingleton singleton = new HungrySingleton();
-    private HungrySingleton(){};
-    public static HungrySingleton getSingleton(){
+
+    private HungrySingleton() {
+    }
+
+    ;
+
+    public static HungrySingleton getSingleton() {
         return singleton;
     }
 

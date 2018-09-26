@@ -15,13 +15,13 @@ import org.junit.Test;
 public class AdapterTest {
 
     @Test
-    public void test_class_adapter(){
+    public void test_class_adapter() {
         TargetChinaPower power = new PowerResourceAdapter();
         power.output220v();
     }
 
     @Test
-    public void test_interface_adapter(){
+    public void test_interface_adapter() {
         MediaOfMp3 mp3 = new MediaOfMp3();
         mp3.playMp3();
         mp3.playMusic();
@@ -34,7 +34,7 @@ public class AdapterTest {
     }
 
     @Test
-    public void test_object_adapter(){
+    public void test_object_adapter() {
         DelegationAdatpter power = new DelegationAdatpter(new AmericanPowerResource());
         power.output220v();
     }

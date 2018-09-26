@@ -6,7 +6,10 @@ package com.hiabby.flytools.gof.builder;
  **/
 public interface GameRoleBuilder {
     void getHead();
+
     void getBody();
+
     void getLeg();
+
     GameRole getGameRole();
 }

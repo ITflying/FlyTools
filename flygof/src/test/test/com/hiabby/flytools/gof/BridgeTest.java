@@ -11,8 +11,8 @@ import org.junit.Test;
  **/
 public class BridgeTest {
     @Test
-    public void test_bridge(){
-        Soul soulToReincarnation = new SoulToReincarnation("猪头","猪身","猪腿", new AnimalBody());
+    public void test_bridge() {
+        Soul soulToReincarnation = new SoulToReincarnation("猪头", "猪身", "猪腿", new AnimalBody());
         soulToReincarnation.reincarnation();
     }
 }

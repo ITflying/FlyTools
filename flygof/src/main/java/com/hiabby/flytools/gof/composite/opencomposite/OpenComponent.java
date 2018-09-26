@@ -7,23 +7,23 @@ package com.hiabby.flytools.gof.composite.opencomposite;
 public abstract class OpenComponent {
     protected String name;
 
-    public String getName(){
+    public String getName() {
         return name;
     }
 
-    public void print(){
+    public void print() {
         throw new UnsupportedOperationException();
     }
 
-    public void add(OpenComponent openComponent){
+    public void add(OpenComponent openComponent) {
         throw new UnsupportedOperationException();
     }
 
-    public void remove(OpenComponent openComponent){
+    public void remove(OpenComponent openComponent) {
         throw new UnsupportedOperationException();
     }
 
-    public OpenComponent getChild(){
+    public OpenComponent getChild() {
         throw new UnsupportedOperationException();
     }
 }

@@ -6,9 +6,14 @@ package com.hiabby.flytools.gof.singleton;
  **/
 public class LazySynchronizedSingleton {
     private static LazySynchronizedSingleton singleton = null;
-    private LazySynchronizedSingleton(){};
-    public static synchronized LazySynchronizedSingleton getSingleton(){
-        if (singleton == null){
+
+    private LazySynchronizedSingleton() {
+    }
+
+    ;
+
+    public static synchronized LazySynchronizedSingleton getSingleton() {
+        if (singleton == null) {
             singleton = new LazySynchronizedSingleton();
         }
         return singleton;

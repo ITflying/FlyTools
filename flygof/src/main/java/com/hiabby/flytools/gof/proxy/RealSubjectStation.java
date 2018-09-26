@@ -10,7 +10,7 @@ public class RealSubjectStation implements Subject {
     @Override
     public int buyTrainticket(int money) {
         money = money - 16;
-        System.out.println("火车站：购买一张火车票，找零:"+money+"元");
+        System.out.println("火车站：购买一张火车票，找零:" + money + "元");
         return money;
     }
 }

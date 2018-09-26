@@ -10,7 +10,7 @@ import org.junit.Test;
 public class BuilderTest {
 
     @Test
-    public void test_builder(){
+    public void test_builder() {
         BuilderDirtor builderDirtor = new BuilderDirtor();
 
         // 创建男性角色
@@ -18,13 +18,13 @@ public class BuilderTest {
         builderDirtor.choiceSex(manRoleBuilder);
         builderDirtor.createUser();
         GameRole manRole = manRoleBuilder.getGameRole();
-        System.out.println("展示："+ manRole.getHead() + " " + manRole.getBody() + " " + manRole.getLeg() + "\n");
+        System.out.println("展示：" + manRole.getHead() + " " + manRole.getBody() + " " + manRole.getLeg() + "\n");
 
         // 创建女性角色
         GameRoleBuilder womanRoleBuilder = new WomanRoleBuilder();
         builderDirtor.choiceSex(womanRoleBuilder);
         builderDirtor.createUser();
         GameRole womanRole = womanRoleBuilder.getGameRole();
-        System.out.println("展示："+ womanRole.getHead() + " " + womanRole.getBody() + " " + womanRole.getLeg() + "\n");
+        System.out.println("展示：" + womanRole.getHead() + " " + womanRole.getBody() + " " + womanRole.getLeg() + "\n");
     }
 }

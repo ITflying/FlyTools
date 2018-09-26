@@ -1,4 +1,4 @@
-package com.hiabby.flytools.gof.Facade;
+package com.hiabby.flytools.gof.facade;
 
 /**
  * @desc
@@ -9,13 +9,13 @@ public class SeeADoctorMaker {
     private TollBooth tollBooth;
     private OutpatientDepartment od;
 
-    public SeeADoctorMaker(){
+    public SeeADoctorMaker() {
         frontDesk = new FrontDesk();
         tollBooth = new TollBooth();
         od = new OutpatientDepartment();
     }
 
-    public void watchingSomethingError(){
+    public void watchingSomethingError() {
         frontDesk.duties();
         tollBooth.duties();
         od.duties();

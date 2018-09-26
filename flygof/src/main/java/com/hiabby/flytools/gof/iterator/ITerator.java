@@ -6,10 +6,14 @@ package com.hiabby.flytools.gof.iterator;
  **/
 public interface ITerator {
     void first();
+
     void next();
+
     boolean hasNext();
 
     boolean isFirst();
+
     boolean isLast();
+
     Object getCurrentObject();
 }

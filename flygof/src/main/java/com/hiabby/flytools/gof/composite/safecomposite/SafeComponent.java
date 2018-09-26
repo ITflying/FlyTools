@@ -7,7 +7,7 @@ package com.hiabby.flytools.gof.composite.safecomposite;
 public abstract class SafeComponent {
     protected String name;
 
-    public SafeComponent(String name){
+    public SafeComponent(String name) {
         this.name = name;
     }
 

@@ -6,6 +6,8 @@ package com.hiabby.flytools.gof.decorator;
  **/
 public interface Immortal {
     int level();
+
     void addMagic(String magicName);
+
     void showMagicals();
 }

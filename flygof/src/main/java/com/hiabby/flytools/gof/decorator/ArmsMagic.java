@@ -7,14 +7,14 @@ package com.hiabby.flytools.gof.decorator;
 public class ArmsMagic extends MagicDecorator {
     private String armsName;
 
-    public ArmsMagic(Immortal immortalMan, String armsName){
+    public ArmsMagic(Immortal immortalMan, String armsName) {
         super(immortalMan);
         this.armsName = armsName;
     }
 
     @Override
     public int level() {
-        return  super.level() + 1;
+        return super.level() + 1;
     }
 
     @Override

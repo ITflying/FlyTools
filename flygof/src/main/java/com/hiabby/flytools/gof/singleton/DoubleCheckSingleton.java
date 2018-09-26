@@ -6,10 +6,15 @@ package com.hiabby.flytools.gof.singleton;
  **/
 public class DoubleCheckSingleton {
     private static DoubleCheckSingleton singleton = null;
-    private DoubleCheckSingleton(){};
-    public static DoubleCheckSingleton getSingleton(){
-        if (singleton == null){
-            synchronized(DoubleCheckSingleton.class) {
+
+    private DoubleCheckSingleton() {
+    }
+
+    ;
+
+    public static DoubleCheckSingleton getSingleton() {
+        if (singleton == null) {
+            synchronized (DoubleCheckSingleton.class) {
                 if (singleton == null) {
                     singleton = new DoubleCheckSingleton();
                 }

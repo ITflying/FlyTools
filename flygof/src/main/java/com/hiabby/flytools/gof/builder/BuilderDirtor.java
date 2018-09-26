@@ -7,11 +7,11 @@ package com.hiabby.flytools.gof.builder;
 public class BuilderDirtor {
     GameRoleBuilder gameRoleBuilder = null;
 
-    public void choiceSex(GameRoleBuilder gameRoleBuilder){
+    public void choiceSex(GameRoleBuilder gameRoleBuilder) {
         this.gameRoleBuilder = gameRoleBuilder;
     }
 
-    public void createUser(){
+    public void createUser() {
         gameRoleBuilder.getBody();
         gameRoleBuilder.getHead();
         gameRoleBuilder.getLeg();

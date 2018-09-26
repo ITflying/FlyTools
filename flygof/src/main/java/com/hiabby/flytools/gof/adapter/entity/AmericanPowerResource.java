@@ -7,7 +7,7 @@ package com.hiabby.flytools.gof.adapter.entity;
 public class AmericanPowerResource {
     int power = 110;
 
-    public int output(){
+    public int output() {
         System.out.println("输出：" + power + "V");
         return 110;
     }

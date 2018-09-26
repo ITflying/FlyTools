@@ -6,14 +6,26 @@ package com.hiabby.flytools.gof.adapter.interfaceadapter;
  **/
 public abstract class MediaPlayShow implements MediaPlay {
     @Override
-    public void playMp3() {};
+    public void playMp3() {
+    }
+
+    ;
 
     @Override
-    public void playMp4() {};
+    public void playMp4() {
+    }
+
+    ;
 
     @Override
-    public void playMusic() {};
+    public void playMusic() {
+    }
+
+    ;
 
     @Override
-    public void playMovie() {};
+    public void playMovie() {
+    }
+
+    ;
 }

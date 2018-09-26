@@ -7,7 +7,7 @@ package com.hiabby.flytools.gof.bridge;
 public abstract class Soul {
     protected Body bodyApi;
 
-    protected Soul(Body bodyApi){
+    protected Soul(Body bodyApi) {
         this.bodyApi = bodyApi;
     }
 

@@ -6,7 +6,10 @@ package com.hiabby.flytools.gof.adapter.interfaceadapter;
  **/
 public interface MediaPlay {
     void playMp3();
+
     void playMp4();
+
     void playMusic();
+
     void playMovie();
 }

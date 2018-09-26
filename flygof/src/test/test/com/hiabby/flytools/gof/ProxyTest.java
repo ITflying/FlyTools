@@ -10,7 +10,7 @@ import org.junit.Test;
 public class ProxyTest {
 
     @Test
-    public void test_proxy(){
+    public void test_proxy() {
         int money = 153;
         ProxySaleStation station = new ProxySaleStation();
         station.buyTrainticket(money);

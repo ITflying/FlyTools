@@ -11,7 +11,7 @@ import org.junit.Test;
  **/
 public class ObserverTest {
     @Test
-    public void test_observer(){
+    public void test_observer() {
         AdminOba adminOba = new AdminOba();
 
         EmployeeOber employeeOber = new EmployeeOber();

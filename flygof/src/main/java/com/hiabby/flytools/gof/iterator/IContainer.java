@@ -8,5 +8,6 @@ import java.util.List;
  **/
 public interface IContainer {
     <T> void setList(List<T> list);
+
     ITerator getITerator();
 }

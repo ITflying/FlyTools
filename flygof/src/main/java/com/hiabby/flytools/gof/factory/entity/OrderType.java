@@ -17,14 +17,6 @@ public enum OrderType {
         this.label = label;
     }
 
-    public String getValue() {
-        return value;
-    }
-
-    public String getLabel() {
-        return label;
-    }
-
     /**
      * 得到所有包含的枚举类型的集合
      *
@@ -51,5 +43,13 @@ public enum OrderType {
             }
         }
         return null;
+    }
+
+    public String getValue() {
+        return value;
+    }
+
+    public String getLabel() {
+        return label;
     }
 }

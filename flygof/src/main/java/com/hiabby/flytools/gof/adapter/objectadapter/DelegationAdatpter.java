@@ -12,7 +12,7 @@ import java.util.Objects;
 public class DelegationAdatpter implements TargetChinaPower {
     private AmericanPowerResource americanPowerResource;
 
-    public DelegationAdatpter(AmericanPowerResource powerResource){
+    public DelegationAdatpter(AmericanPowerResource powerResource) {
         this.americanPowerResource = powerResource;
     }
 

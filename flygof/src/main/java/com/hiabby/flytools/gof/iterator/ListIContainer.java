@@ -2,7 +2,6 @@ package com.hiabby.flytools.gof.iterator;
 
 import com.google.common.collect.Lists;
 
-import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -15,7 +14,7 @@ public class ListIContainer implements IContainer {
 
     @Override
     public <T> void setList(List<T> list) {
-        tList =list;
+        tList = list;
     }
 
     @Override
@@ -23,7 +22,7 @@ public class ListIContainer implements IContainer {
         return new NameIterator();
     }
 
-    private class NameIterator implements ITerator{
+    private class NameIterator implements ITerator {
         int index = 0;
 
         @Override
@@ -38,7 +37,7 @@ public class ListIContainer implements IContainer {
 
         @Override
         public boolean hasNext() {
-            if (index < tList.size()){
+            if (index < tList.size()) {
                 return true;
             }
             return false;
@@ -46,7 +45,7 @@ public class ListIContainer implements IContainer {
 
         @Override
         public boolean isFirst() {
-            if (index == 0){
+            if (index == 0) {
                 return true;
             }
             return false;
@@ -54,7 +53,7 @@ public class ListIContainer implements IContainer {
 
         @Override
         public boolean isLast() {
-            if (index == (tList.size() - 1)){
+            if (index == (tList.size() - 1)) {
                 return true;
             }
             return false;
@@ -62,7 +61,7 @@ public class ListIContainer implements IContainer {
 
         @Override
         public Object getCurrentObject() {
-            if (this.hasNext()){
+            if (this.hasNext()) {
                 return tList.get(index++);
             }
             return null;

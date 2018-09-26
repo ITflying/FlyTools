@@ -5,8 +5,8 @@ package com.hiabby.flytools.gof.prototype;
  * @date 2018/09/21
  **/
 public abstract class GameUserPrototype implements Cloneable {
-    private String name;
     protected String model;
+    private String name;
 
     abstract void createUser();
 
@@ -27,11 +27,11 @@ public abstract class GameUserPrototype implements Cloneable {
     }
 
     @Override
-    public Object clone(){
+    public Object clone() {
         Object gameUser = null;
-        try{
+        try {
             gameUser = super.clone();
-        }catch (CloneNotSupportedException e){
+        } catch (CloneNotSupportedException e) {
             e.printStackTrace();
         }
         return gameUser;
