@@ -14,7 +14,7 @@ import java.util.List;
 public class IteratorTest {
 
     @Test
-    public void test_name_iterator(){
+    public void test_name_iterator() {
         ListIContainer listIContainer = new ListIContainer();
         List<String> nameList = Lists.newArrayList();
         nameList.add("jack");
@@ -22,8 +22,8 @@ public class IteratorTest {
         nameList.add("rose");
 
         listIContainer.setList(nameList);
-        for (ITerator iTerator = listIContainer.getITerator(); iTerator.hasNext(); ){
-            String name = (String)iTerator.getCurrentObject();
+        for (ITerator iTerator = listIContainer.getITerator(); iTerator.hasNext(); ) {
+            String name = (String) iTerator.getCurrentObject();
             System.out.println("Name : " + name);
         }
     }

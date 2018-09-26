@@ -13,7 +13,7 @@ import org.junit.Test;
 public class CompositeTest {
 
     @Test
-    public void test_open_composite(){
+    public void test_open_composite() {
         OpenComponent boss = new OpenCreateComposite("boss");
         OpenComponent administrativeGroup = new OpenLeaf("administrativeGroup");
         OpenComponent developmentGroup = new OpenDevComposite("developmentGroup");
@@ -33,7 +33,7 @@ public class CompositeTest {
     }
 
     @Test
-    public void test_safe_composite(){
+    public void test_safe_composite() {
         SafeCompositeRoot boss = new SafeCompositeRoot("boss");
         SafeComponent administrativeGroup = new SafeCompositeLeaf("administrativeGroup");
         SafeCompositeRoot developmentGroup = new SafeCompositeRoot("developmentGroup");
