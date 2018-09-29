@@ -4,8 +4,8 @@ package com.hiabby.flytools.gof.responsibility;
  * @desc
  * @date 2018/09/27
  **/
-public class EmployeeResponsibility extends AbstractResponsibility{
-    public EmployeeResponsibility(int level){
+public class EmployeeResponsibility extends AbstractResponsibility {
+    public EmployeeResponsibility(int level) {
         super(level);
     }
 

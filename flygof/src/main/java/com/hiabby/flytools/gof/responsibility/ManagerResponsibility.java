@@ -4,8 +4,8 @@ package com.hiabby.flytools.gof.responsibility;
  * @desc
  * @date 2018/09/27
  **/
-public class ManagerResponsibility extends AbstractResponsibility{
-    public ManagerResponsibility(int level){
+public class ManagerResponsibility extends AbstractResponsibility {
+    public ManagerResponsibility(int level) {
         super(level);
     }
 

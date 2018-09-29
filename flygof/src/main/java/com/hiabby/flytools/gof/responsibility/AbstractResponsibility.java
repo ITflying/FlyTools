@@ -22,9 +22,9 @@ public abstract class AbstractResponsibility {
         if (this.level == level) {
             this.decide(msg);
         } else {
-            if (Objects.isNull(this.nextHandler)){
+            if (Objects.isNull(this.nextHandler)) {
                 System.out.println("决定金字塔顶：只能在这里解决了");
-            }else {
+            } else {
                 this.nextHandler.handlerMsg(level, msg);
             }
         }

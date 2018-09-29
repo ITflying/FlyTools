@@ -12,7 +12,7 @@ import org.junit.Test;
  **/
 public class ResponsibilityTest {
     @Test
-    public void test_responsibility(){
+    public void test_responsibility() {
         AbstractResponsibility topResponsibility = getTopResponsibility();
 
         System.out.println("第一层");
@@ -27,7 +27,7 @@ public class ResponsibilityTest {
 
     // region 私有方法
 
-    private AbstractResponsibility getTopResponsibility(){
+    private AbstractResponsibility getTopResponsibility() {
         AbstractResponsibility bossResponsibility = new BossResponsibility(1);
         AbstractResponsibility managerResponsibility = new ManagerResponsibility(2);
         AbstractResponsibility employeeResponsibility = new EmployeeResponsibility(3);
