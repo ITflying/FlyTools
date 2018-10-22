@@ -10,6 +10,7 @@ public class Memento {
 
     public Memento(int statusCode, String info) {
         this.statusCode = statusCode;
+        this.info = info;
     }
 
     public int getStatusCode() {
